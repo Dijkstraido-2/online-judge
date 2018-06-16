@@ -1,6 +1,6 @@
 //============================================================================
 // Problem  : 989A - A Blend of Springtime
-// Category : Implementation
+// Category : Implementation 
 //============================================================================
 #include <bits/stdc++.h>
 using namespace std;
