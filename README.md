@@ -1,6 +1,3 @@
-# online-judge
-Contains solutions for different online judges
-
 # Online Judge
 
 This repo contains solutions (mostly in C++) of popular online judges like Codeforces, AtCoder, CSAcademy, and so on.
