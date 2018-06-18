@@ -1,6 +1,6 @@
 //============================================================================
 // Problem  : 989C - A Mist of Florescence
-// Category : Constructive algorithms
+// Category : Constructive algorithms 
 //============================================================================
 #include <bits/stdc++.h>
 using namespace std;
