@@ -1,6 +1,6 @@
 //============================================================================
 // Problem  : 989B - A Tide of Riverscape
-// Category : Constructive algorithm
+// Category : Constructive algorithms
 //============================================================================
 #include <bits/stdc++.h>
 using namespace std;
