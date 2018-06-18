@@ -49,11 +49,11 @@ int main()
                 mn_x = min(mn_x, p[i].x); mn_y = min(mn_y, p[i].y);
                 mx_x = max(mx_x, p[i].x); mx_y = max(mx_y, p[i].y);
             }
-            // Check if any corner of the "irregular" square is inside the regular square
+            // Check if any corner of the rotated square is inside the regular square
             for(int i = (!k? 4:0); i < (!k? 8:4); i++)
                 if(mn_x <= p[i].x && p[i].x <= mx_x && mn_y <= p[i].y && p[i].y <= mx_y)
                     intersect = 1;
-            // Check if the center of the "irregular" square is inside the regular square
+            // Check if the center of the rotated square is inside the regular square
             cx = cy = 0;
             for(int i = (!k? 4:0); i < (!k? 8:4); i++)
                 cx += p[i].x, cy += p[i].y;
