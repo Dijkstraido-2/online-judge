@@ -1,6 +1,6 @@
 //============================================================================
 // Problem  : 994B - Knights of a Polygonal Table
-// Category : Greedy + Sortings
+// Category : Greedy + Sortings 
 //============================================================================
 #include <bits/stdc++.h>
 using namespace std;
