@@ -1,6 +1,6 @@
 //============================================================================
 // Problem  : 993A - Two Squares
-// Category : Geometry
+// Category : Geometry 
 //============================================================================
 #include <bits/stdc++.h>
 using namespace std;
