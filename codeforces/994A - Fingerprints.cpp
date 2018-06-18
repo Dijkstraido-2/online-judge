@@ -1,6 +1,6 @@
 //============================================================================
 // Problem  : 994A - Fingerprints
-// Category : Basic Programming
+// Category : Basic Programming 
 //============================================================================
 #include <bits/stdc++.h>
 using namespace std;
