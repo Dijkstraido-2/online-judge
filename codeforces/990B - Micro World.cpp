@@ -2,7 +2,6 @@
 // Problem  : 990B - Micro World
 // Category : Sorting + Binary Search
 //============================================================================
-Copy
 #include <bits/stdc++.h>
 using namespace std;
 
