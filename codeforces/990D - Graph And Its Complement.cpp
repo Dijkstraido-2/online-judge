@@ -1,6 +1,6 @@
 //============================================================================
 // Problem  : 990D - Graph And Its Complement
-// Category : Greedy
+// Category : Constructive algorithms
 //============================================================================
 #include <bits/stdc++.h>
 using namespace std;
