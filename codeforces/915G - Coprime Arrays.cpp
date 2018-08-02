@@ -12,7 +12,7 @@ const ll MAX = 2e6+5;
 const ll MOD = 1e9+7;
 
 bitset<MAX> bs;
-vi divi[MAX];
+vi pf[MAX];
 
 void sieve() 
 {
@@ -24,7 +24,7 @@ void sieve()
     for(ll i = 2; i < MAX; i++)
         if(bs[i])
             for(ll j = i; j < MAX; j += i)
-                divi[j].push_back(i);
+                pf[j].push_back(i);
 }
 
 ll mul(ll a, ll b) { return a%MOD * (b%MOD) % MOD; }
@@ -34,12 +34,12 @@ ll pot[MAX],cur;
 
 void solve(ll n, ll pos, ll prod, ll t)
 {
-    if(pos == divi[n].size()) 
+    if(pos == pf[n].size()) 
     {
         cur += t*pot[n/prod] - t*pot[n/prod - 1];
         return;
     }
-    solve(n, pos+1, prod*divi[n][pos], -t);
+    solve(n, pos+1, prod*pf[n][pos], -t);
     solve(n, pos+1, prod, t);
 }
 
