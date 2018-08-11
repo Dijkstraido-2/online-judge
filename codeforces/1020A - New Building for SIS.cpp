@@ -1,5 +1,5 @@
 //============================================================================
-// Problem  : 1019A - New Building for SIS
+// Problem  : 1020A - New Building for SIS
 // Category : Implementation
 //============================================================================
 #include <bits/stdc++.h>
